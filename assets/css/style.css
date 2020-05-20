@@ -1,0 +1,111 @@
+body {background-color: burlywood;
+} 
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: darkblue;
+  }
+.cardP{
+  height: 200px;
+  width: 150px;
+}
+
+h4{
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-collapse div {
+
+    padding-top: 15px;
+    text-align:  right;
+}
+
+
+     
+.cardP{
+  height: 200px;
+  width: 300px;
+}
+.footer { 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: whitesmoke;
+    }
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
+  
+  /* Additional Screen Sizes */
+  
+  /* Width at 320px and below */
+  @media screen and (max-width: 320px) {
+    body {
+      background-color: whitesmoke;
+    }
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
+  
+  /* Width at 168px and below */
+  @media screen and (max-width: 168px) {
+    body {
+      background-color:whitesmoke;
+    }
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
