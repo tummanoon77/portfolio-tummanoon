@@ -1,4 +1,4 @@
-body {background-color: burlywood;
+body {background-color:#cccccc ;
 } 
 hr {
     display: block;
@@ -40,7 +40,15 @@ h4{
     text-align: center;
     
 }
-
+.footer2 { 
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  
+}
 
 
 @media screen and (max-width: 768px) {
